@@ -1,0 +1,92 @@
+.porfolio{
+    padding: 120px 0;
+    background-color: #fff;
+    border-top: 1px solid #e7e7e7;
+}
+.singlefolio {
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 30px;
+}
+.singlefolio img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+.folioHover {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+    z-index: 3;
+    transition: all ease 900ms;
+    -moz-transition: all ease 900ms;
+    -webkit-transition: all ease 900ms;
+    -o-transition: all ease 900ms;
+}
+.singlefolio:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background: rgba(230, 43, 74, .8); */
+    background: rgba(18, 34, 48, .8);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    content: '';
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+}
+.singlefolio .folioHover a.cate {
+    font-size: 12px;
+    line-height: 32px;
+    color: #fff;
+    display: block;
+    letter-spacing: 1.2px;
+    margin: 0 0 3px;
+    text-transform: uppercase;
+    transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+    -moz-transition: all ease 400ms;
+}
+.singlefolio .folioHover h4{
+    font-size: 20px;
+    line-height: .8;
+    color: #fff;
+    letter-spacing: .80px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.singlefolio .folioHover h4 a{
+    color: #fff;    
+    transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+    -moz-transition: all ease 400ms;
+}
+.singlefolio:hover img {
+    transform: scale(1.1) rotate(2deg);
+    -moz-transform: scale(1.1) rotate(2deg);
+    -webkit-transform: scale(1.1) rotate(2deg);
+    -ms-transform: scale(1.1) rotate(2deg);
+    -o-transform: scale(1.1) rotate(2deg);
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+.singlefolio:hover .folioHover {
+    visibility: visible;
+    opacity: 1;
+    left: 50px;
+}
+.singlefolio:hover:after{
+    width: 100%;
+}
+.singlefolio .folioHover a.cate:hover,
+.singlefolio .folioHover h4 a:hover{
+    color: #000;
+}

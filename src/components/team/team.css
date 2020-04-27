@@ -1,0 +1,183 @@
+.team{
+    padding: 120px 0 172px 0;
+}
+.slick-list {
+    -moz-user-select: none;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+}
+.singleTM {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+    -moz-transition: all ease 400ms;
+}
+.team_slider .slick-slide{
+    margin: 0 15px;
+    outline: none;
+}
+.tm_img{
+    position: relative;
+}
+.tm_img img{
+    width: 100%;
+    height: auto;
+    max-width: none;
+    width: calc(100% + 20px);
+    -webkit-transition: opacity .35s,-webkit-transform .35s;
+    transition: opacity .35s,transform .35s;
+    -webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.singleTM:hover .tm_img img {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.singleTM .tm_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all ease 900ms;
+    -moz-transition: all ease 900ms;
+    -webkit-transition: all ease 900ms;
+    -o-transition: all ease 900ms;
+}
+.singleTM .tm_overlay:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* background: rgba(230, 43, 74, .8); */
+    background: rgba(18, 34, 48, .8);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    content: '';
+    transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+    -moz-transition: all ease 400ms;
+}
+.singleTM .team_social{
+    position: absolute;
+    left: 20px;
+    top: 49px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9;
+    transition: all ease 900ms;
+    -moz-transition: all ease 900ms;
+    -webkit-transition: all ease 900ms;
+    -o-transition: all ease 900ms;
+}
+.singleTM .team_social a{
+    display: block;
+    font-size: 12px;
+    line-height: .8;
+    letter-spacing: 1.2px;
+    color: #fff;
+    margin: 0 0 19px;
+    position: relative;
+    text-transform: uppercase;
+}
+.singleTM .team_social a span{
+    position: relative;
+}
+.singleTM .team_social a span:after {
+    width: 0;
+    height: 1px;
+    content: '';
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -0px;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+.singleTM .team_social a span:hover:after{
+    width: 100%;
+}
+.tm_overlay a.common_btn{
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+    visibility: hidden;
+    opacity: 0;
+    padding: 24px 30.5px;
+    height: 60px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    transition: all ease 900ms;
+    -moz-transition: all ease 900ms;
+    -webkit-transition: all ease 900ms;
+    -o-transition: all ease 900ms;
+}
+.singleTM:hover .tm_overlay a.common_btn{
+    visibility: visible;
+    opacity: 1;
+    left: 50px;
+    z-index: 9;
+}
+.singleTM:hover .team_social{
+    visibility: visible;
+    opacity: 1;
+    left: 50px;
+}
+.singleTM:hover .tm_overlay:after{
+    width: 100%;
+}
+.detail_TM{
+    position: relative;
+    text-align: center;
+    padding: 30px 15px 0;
+}
+.detail_TM h5{
+    font-size: 20px;
+    line-height: .8;
+    letter-spacing: 0.80px;
+    text-transform: uppercase;
+    color: #000;
+    display: block;
+    margin: 0 0 3px;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+.detail_TM h6{
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #818181;
+    text-transform: uppercase;
+    position: relative;
+    line-height: .8;
+    display: inline-block;
+}
+.detail_TM h6:after {
+    width: 0;
+    height: 1px;
+    content: '';
+    background: #818181;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -4px;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+.singleTM:hover .detail_TM h5{
+    /* color: #e62b4a; */
+    color: #122230;
+}
+.singleTM:hover .detail_TM h6:after{
+    width: 100%;
+}

@@ -1,13 +1,77 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Oswald', sans-serif !important;
+  background-color:  #fff !important;
+}
+
+a:hover, a:focus {
+  text-decoration: none !important;
+  outline: 0 !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+.common_btn{
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  background: #000000;
+  color: #fff;
+  height: 70px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 28px 45.5px;
+  display: inline-block;
+  line-height: .8;
+  letter-spacing: 1.6px;
+  position: relative;
+  outline: none;
+  transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+}
+.common_btn span {
+  position: relative;
+  z-index: 2;
+}
+.common_btn:after {
+  content: "";
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #fff;
+  transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+}
+.common_btn:hover:after{
+  width: 100%;
+}
+.common_btn:hover{
+  color: #000;
+}
+.common_btn.red_bg{
+  padding: 28px 40.5px;
+}
+.common_btn.red_bg:after{
+  /* background: #e62b4a; */
+  background: #122230;
+}
+.common_btn.red_bg:hover:after{
+  width: 100%;
+}
+.common_btn.red_bg:hover{
+  color: #fff;
 }

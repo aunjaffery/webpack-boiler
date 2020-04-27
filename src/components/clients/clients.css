@@ -1,0 +1,46 @@
+
+.bg-clients{
+    padding: 120px 0;
+    background-color: #f4f4f4;
+}
+.sub_title{
+    font-size: 12px;
+    line-height: .8;
+    font-weight: 400;
+    color: #818181;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+.sec_title{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 25px;
+}
+
+.sec_desc{
+    color: #818181;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    line-height: 32px;
+    margin: 0 0 54px;
+}
+
+.slick-slide {
+    padding: 20px;
+  }
+.slick-slide img {
+    margin: auto;
+    width: 100%;
+  }
+
+
+  @media (min-width: 320px) and (max-width: 767px){
+      .sec_desc > br {
+          display: none;
+      }
+  }

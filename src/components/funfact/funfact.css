@@ -1,0 +1,96 @@
+.funfact{
+    padding: 0 0 330px
+}
+.BR{
+    border-right: 1px solid #1a1a1a;
+}
+.singlefunfact{
+    position: relative;
+    padding-top: 113px;
+}
+.counter-point{
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: 2.4px;
+    font-weight: 300;
+    color: #fff;
+}
+.singlefunfact h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: .8;
+    color: #aaaaaa;
+    letter-spacing: 1.6px;
+    margin-top: 25px;
+}
+
+.trustClient{
+    padding: 0 0 0;
+    margin-top: -210px;
+    z-index: 5;
+}
+.pb_120{
+    padding-bottom: 120px;
+}
+.CL_content{
+    position: relative;
+}
+.CL_content img{
+    max-width: 100%;
+    height: auto;
+}
+.abc_inner {
+    position: relative;
+    margin-top: -477px;
+    z-index: 2;
+}
+.abci_content {
+    position: relative;
+    background: #FFF;
+    padding: 87px 0 0 100px;
+    margin-left: -17px;
+}
+.abci_content h2{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #000000;
+    line-height: 63px;
+    text-transform: uppercase;
+    margin: 0 0 43px;
+}
+.abci_content p{
+    margin-bottom: 55px;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .abci_content{
+        margin-left: 0;
+        padding: 50px 0 0;
+    }
+    .abci_content h2{
+        font-size: 36px;
+        letter-spacing: 1px;
+        line-height: 50px;
+    }
+    .abc_inner{
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px){
+    .abci_content{
+        padding: 40px 0 0 20px;
+    }
+    .abci_content h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .abci_content p{
+        margin-bottom: 47px;
+    }
+}
+@media (min-width: 991px) and (max-width: 1199px){
+    .abci_content{
+        padding-left: 70px;
+        padding-top: 55px;
+    }
+}
