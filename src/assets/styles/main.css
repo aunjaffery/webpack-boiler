@@ -11,6 +11,9 @@
 .navbar-brand {
     margin-right: 0 !important;
 }
+.navbar-brand img{
+    width: 180px !important;
+}
 
 .nav-noColor{
     background: transparent !important;
@@ -217,6 +220,9 @@
 }
 
 @media (max-width: 576px) {
+    .navbar-brand img{
+        width: 140px !important;
+    }
     .slider-text-head {
         font-size: 32px;
         font-weight: 700;

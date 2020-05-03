@@ -15,7 +15,7 @@ const Header = props => {
         <div className={navFlip ? "fixed-top animated flipInX nav-bg-dark" : 'nav-noColor'}>
             <Navbar variant="dark" expand="md" style={{padding : '1rem'}}>
             <Navbar.Brand href="#home" className='ml-md-4 ml-2'>
-                <img src={Logo} alt="Logo" width='180px'/>
+                <img src={Logo} alt="Logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>

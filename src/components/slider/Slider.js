@@ -40,8 +40,8 @@ const Slider = props => {
                 alt="Third slide"
                 />
                 <Carousel.Caption>
-                    <p className="slider-text-head animated zoomIn" style={{animationDelay: "1s"}}>Best Customer Support</p>
-                    <p className="slider-text-2nd animated zoomIn" style={{animationDelay: "1s"}}>Lorem ipsum dolor sit amet.</p>
+                    <p className="slider-text-2nd animated zoomIn" style={{animationDelay: "1s"}}>Best Customer Support.</p>
+                    <p className="slider-text-head animated zoomIn" style={{animationDelay: "1s"}}>Welcome to efus</p>
                 </Carousel.Caption>
             </Carousel.Item>
             </Carousel>
