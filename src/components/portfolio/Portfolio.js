@@ -26,7 +26,7 @@ const Portfolio = () => {
                             <img src={portfolio1} alt="portfolio1" />
                             <div className="folioHover">
                                 <a className="cate" href="/">Graphic</a>
-                                <h4><a href="portfolio_detail.html">Design Styles</a></h4>
+                                <h4><a href="/">Design Styles</a></h4>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const Portfolio = () => {
                             <img src={portfolio2} alt="portfolio1" />
                             <div className="folioHover">
                                 <a className="cate" href="/">Graphic</a>
-                                <h4><a href="portfolio_detail.html">Design Styles</a></h4>
+                                <h4><a href="/">Design Styles</a></h4>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Portfolio = () => {
                             <img src={portfolio3} alt="portfolio1" />
                             <div className="folioHover">
                                 <a className="cate" href="/">Graphic</a>
-                                <h4><a href="portfolio_detail.html">Design Styles</a></h4>
+                                <h4><a href="/">Design Styles</a></h4>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Portfolio = () => {
                             <img src={portfolio4} alt="portfolio1" />
                             <div className="folioHover">
                                 <a className="cate" href="/">Graphic</a>
-                                <h4><a href="portfolio_detail.html">Design Styles</a></h4>
+                                <h4><a href="/">Design Styles</a></h4>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ const Portfolio = () => {
                             <img src={portfolio5} alt="portfolio1" />
                             <div className="folioHover">
                                 <a className="cate" href="/">Graphic</a>
-                                <h4><a href="portfolio_detail.html">Design Styles</a></h4>
+                                <h4><a href="/">Design Styles</a></h4>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Portfolio = () => {
                             <img src={portfolio6} alt="portfolio1" />
                             <div className="folioHover">
                                 <a className="cate" href="/">Graphic</a>
-                                <h4><a href="portfolio_detail.html">Design Styles</a></h4>
+                                <h4><a href="/">Design Styles</a></h4>
                             </div>
                         </div>
                     </div>

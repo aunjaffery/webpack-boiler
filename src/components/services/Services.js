@@ -16,7 +16,7 @@ const Services = () => {
                 </div>
                 <div className="d-flex justify-content-center flex-wrap mt-5">
                     <div className='p-3'>
-                        <a href="service_detail.html" className="icon_box_1 text-center">
+                        <a href="/" className="icon_box_1 text-center">
                             <div className="flipper">
                                 <div className="front">
                                     <i className="fa fa-paw" />
@@ -30,7 +30,7 @@ const Services = () => {
                         </a>
                     </div>
                     <div className='p-3'>
-                        <a href="career_counseling.html" className="icon_box_1 text-center">
+                        <a href="/" className="icon_box_1 text-center">
                             <div className="flipper">
                                 <div className="front">
                                     <i className="fa fa-paw" />
@@ -44,7 +44,7 @@ const Services = () => {
                         </a>
                     </div>
                     <div className='p-3'>
-                        <a href="service_detail.html" className="icon_box_1 text-center">
+                        <a href="/" className="icon_box_1 text-center">
                             <div className="flipper">
                                 <div className="front">
                                     <i className="fa fa-paw" />
@@ -58,7 +58,7 @@ const Services = () => {
                         </a>
                     </div>
                     <div className='p-3'>
-                        <a href="service_detail.html" className="icon_box_1 text-center">
+                        <a href="/" className="icon_box_1 text-center">
                             <div className="flipper">
                                 <div className="front">
                                     <i className="fa fa-paw" />
@@ -72,7 +72,7 @@ const Services = () => {
                         </a>
                     </div>
                     <div className='p-3'>
-                        <a href="service_detail.html" className="icon_box_1 text-center">
+                        <a href="/" className="icon_box_1 text-center">
                             <div className="flipper">
                                 <div className="front">
                                     <i className="fa fa-paw" />
