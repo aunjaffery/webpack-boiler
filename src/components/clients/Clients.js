@@ -1,5 +1,6 @@
 import React from 'react'
 import Slider from "react-slick"
+import ScrollAnimation from 'react-animate-on-scroll';
 import abstract1 from 'assets/abstracts/abstract01.jpg'
 import abstract2 from 'assets/abstracts/abstract02.jpg'
 import abstract3 from 'assets/abstracts/abstract03.jpg'
@@ -46,12 +47,14 @@ const Clients = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
+                    <ScrollAnimation animateIn="pulse" delay={1000} initiallyVisible={true}>
                         <h4 className="sub_title">our clients</h4>
                         <h2 className="sec_title">they trust us</h2>
                         <p className="sec_desc">
                             We are committed to providing our customers with exceptional service while<br />
                             offering our employees the best training.
                         </p>
+                     </ScrollAnimation>
                     </div>
                 </div>
                 <Slider {...settings}>

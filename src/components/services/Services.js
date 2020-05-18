@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import bg5 from 'assets/bg/5.jpg'
 import './services.css'
 
@@ -15,6 +16,7 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="d-flex justify-content-center flex-wrap mt-5">
+                <ScrollAnimation animateIn="fadeInUp">
                     <div className='p-3'>
                         <a href="/" className="icon_box_1 text-center">
                             <div className="flipper">
@@ -29,6 +31,8 @@ const Services = () => {
                             </div>
                         </a>
                     </div>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn="fadeInUp">
                     <div className='p-3'>
                         <a href="/" className="icon_box_1 text-center">
                             <div className="flipper">
@@ -43,6 +47,8 @@ const Services = () => {
                             </div>
                         </a>
                     </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInUp">
                     <div className='p-3'>
                         <a href="/" className="icon_box_1 text-center">
                             <div className="flipper">
@@ -57,6 +63,8 @@ const Services = () => {
                             </div>
                         </a>
                     </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInUp">
                     <div className='p-3'>
                         <a href="/" className="icon_box_1 text-center">
                             <div className="flipper">
@@ -71,6 +79,8 @@ const Services = () => {
                             </div>
                         </a>
                     </div>
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeInUp">
                     <div className='p-3'>
                         <a href="/" className="icon_box_1 text-center">
                             <div className="flipper">
@@ -85,6 +95,7 @@ const Services = () => {
                             </div>
                         </a>
                     </div>
+                    </ScrollAnimation>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import './about.css'
 import aboutImg1 from 'assets/images/about-us1.jpg'
 import aboutImg2 from 'assets/images/about-us2.jpg'
@@ -9,6 +10,7 @@ const About = () => {
         <div className='container'>
             <div className="row">
                 <div className="col-md-6 about-padding">
+                <ScrollAnimation animateIn="fadeIn">
                     <div className="about-writing">
                         <h4>WELCOM TO SMART EFUS WEB AGENCY</h4>
                         <h2>WE ARE THE BEST WEBSITE AGENCY IN THE WORLD</h2>
@@ -21,6 +23,7 @@ const About = () => {
                             <span>learn more</span>
                          </a>
                     </div>
+                </ScrollAnimation>
                 </div>
                 <div className="col-lg-6 col-sm-12 col-md-6">
                         <div className="ab_img1">
